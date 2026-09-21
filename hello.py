@@ -8,7 +8,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return '<p>This application is running on the Flask web framework.</p><a href="https://flask.palletsprojects.com/">Learn more about Flask</a>'
+    return '<p>This application is running on the Flask web framework.</p><p><a href="https://flask.palletsprojects.com/">Learn more about Flask</a></p><p><a href="https://www.python.org/">Learn more about Python</a></p>'
 
 @app.route("/contact")
 def contact():
