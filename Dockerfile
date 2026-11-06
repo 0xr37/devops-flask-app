@@ -2,7 +2,7 @@ FROM python:3-alpine
 
 WORKDIR /app
 
-RUN pip install flask
+RUN pip install flask redis
 
 COPY . .
 
